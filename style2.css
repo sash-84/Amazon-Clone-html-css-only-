@@ -1,0 +1,169 @@
+
+.hero-section {
+    background-image: url(assets/hero_image1.jpg);
+    /* background: linear-gradient(to bottom, transparent 75%, rgba(207, 238, 243, 0.397) 50% 75%, white 100%), url(assets/hero_image1.jpg) no-repeat center center; */
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hero-msg {
+    background-color: #ffffff;
+    color: #0f1111;
+    width: 97%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.hero-msg p a{
+    text-decoration: none;
+    color: #007185;
+}
+
+.shop-section {
+    background: linear-gradient(to bottom,rgba(207, 238, 243) 25%, #e3e6e6 100%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 450px;
+    width: 23%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content {
+    width: 100%;
+}
+
+.content1 {
+    height: 50px;
+}
+
+.content3 {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.content2 {
+    height: 100%;
+}
+
+.content3 a{
+    text-decoration: none;
+    color: #007185;
+    cursor: pointer;
+}
+
+.content3 a:hover {
+    color: red;
+}
+
+.box1 .content2, .box7 .content2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.box7 .content2 {
+    gap: 15px;
+}
+
+.box1 .content2 .img, .box7 .content2 .img {
+    cursor: pointer;
+    font-size: 14px;
+    color: #0f1111da;
+}
+
+.box1 .content2 .img img, .box7 .content2 .img img {
+    width: 100%;
+    height: 80%;
+}
+
+.box2 .content2 img, .box5 .content2 img, .box6 .content2 img, .box8 .content2 img {
+    width: 100%;
+    height: 95%;
+    cursor: pointer;
+}
+
+.box3 .content2 {
+    display: flex;
+    flex-direction:column ;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.box3 .content2 img{
+    width: 100%;
+    height: 75%;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #cc0339;
+}
+
+.second {
+    font-size: 0.9rem;
+    color: #0f1111da;
+}
+
+.discount {
+    background-color: #cc0339;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.box4 .content2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    height: 100%;
+    font-size: 14px;
+    color: #0f1111da;
+    cursor: pointer;
+}
+
+.main img{
+    width: 100%;
+    height: 85%;
+}
+
+.tabs {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    font-size: 14px;
+    color:#0f1111da;
+}
+
+.tabs .img {
+    flex: 1;
+    cursor: pointer;
+}
+
+.tabs img{
+    width: 100%;
+    height: 80%;
+}

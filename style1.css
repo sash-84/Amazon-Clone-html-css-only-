@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 65px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 65px;
+    width: 147px;
+    display: flex;
+    align-items: center;
+    padding: 1px 8px 0px 6px;
+}
+
+.logo{
+    background-image: url(assets/amazon_logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 55px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+.nav-address {
+    display: flex;
+    align-items: center;
+    height: 55px;
+    width: 97px;
+    cursor: pointer;
+    padding: 0px 9px;
+}
+
+.add-icon {
+    margin: 11px 2px 0px 0px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.deliver {
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.india {
+    font-size: 16px;
+    padding: 0px 0px 1px;
+    font-weight: 700;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    width: 720px;
+    border-radius: 9px;
+    border: 5px solid transparent;
+    margin: 0px 10px 0px 14px;
+}
+
+.nav-search:hover {
+    border: 5px solid #f7b439;
+}
+
+.search-dropdown {
+    height: 47px;
+    width: 65px;
+    font-size: 0.8rem;
+    color: #484b4b;
+    background-color: #e6e6e6;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    padding: 0px 0px 0px 5px;
+    cursor: pointer;
+}
+
+.search-dropdown:focus {
+    outline: none;
+}
+
+.seach-dropdown:hover {
+    background-color: #cccccc;
+    color: #000;
+}
+
+#search {
+    width: 100%;
+    height: 47px;
+    border: none;
+    padding: 0px 0px 0px 10px;
+    font-size: 1.02rem;
+}
+
+#search:focus {
+    outline: none;
+}
+
+.find-icon {
+    height: 47px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #cccccc;
+    font-size: 20px;
+    border-left: 0.1rem solid #f3f3f3;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-icon {
+    height: 47px;
+    width: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #febd68;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 22px;
+    color: black;
+    cursor: pointer;
+}
+
+.search-icon:hover {
+    background-color: rgb(241, 174, 74);
+}
+
+.nav-country {
+    height: 55px;
+    width: 75px;
+    cursor: pointer;
+}
+
+.country-content {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px 9px;
+}
+
+.country {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nav-signin {
+    height: 55px;
+    width: 174px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 9px;
+    cursor: pointer;
+}
+
+.signin-hello {
+    font-size: 14px;
+}
+
+.signin-acc {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.drop {
+    font-size: 10px;
+    color: #cccccc;
+}
+
+.nav-return {
+    height: 55px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 9px;
+    cursor: pointer;
+}
+
+.nav-cart {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 85px;
+    padding: 9px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.cart-zero {
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    height: 50%;
+    width: 80%;
+    border-radius: 50%;
+    color: #febd68;
+    margin-left: 5px;
+
+}
+
+.cart {
+    height: 50%;
+    width: 80%;
+    display: flex;
+    gap: 5px;
+    margin-right: 5px;
+}
+
+.panel {
+    height: 45px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.panel-all {
+    margin-left: 16px;
+    gap: 6px;
+}
+
+.panel-all span {
+    cursor: context-menu;
+    font-weight: 700;
+}
+
+.panel-all .menu {
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.panel-opt {
+    display: flex;
+    height: 100%;
+    width: 77%;
+}
+
+.sell, .card, .reg, .service, .deal, .panel-all{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+.sell, .card, .reg, .service, .deal{
+    cursor: pointer;
+}
+
+.panel-deals {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+}
