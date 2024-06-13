@@ -260,7 +260,7 @@
 .panel-opt {
     display: flex;
     height: 100%;
-    width: 77%;
+    width: 75%;
 }
 
 .sell, .card, .reg, .service, .deal, .panel-all{
